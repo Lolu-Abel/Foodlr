@@ -1,0 +1,50 @@
+  #footerlinks{
+    color: white;
+    text-decoration: none;
+  }
+  #logosm{
+    height: 50%;
+    width: 40%;
+  }
+  #mobilefooter{
+    display: none;
+  }
+  #inline a{
+    margin-right: 10px;
+  }
+  #che{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    color: black;
+    background-color: #E3E3E3;
+  }
+  #inline{
+    display: flex;
+  }
+
+  @media screen and (max-width: 480px) {
+    #desktopfooter{
+        display: none;
+      }
+      #logosm{
+        width:15%
+      }
+      #mobilefooter{
+        display: block;
+      }
+      #mobilefootericon{
+        color: white;
+        padding: 5px;
+      }
+      #fifty{
+        width: 50%;
+      }
+      #fifty a{
+        color: white;
+        text-decoration: none;
+      }
+      #fifty a:hover{
+        text-decoration: underline;
+      }
+  }

@@ -1,0 +1,200 @@
+                /*SECTION A*/
+
+  #delivered{
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 70px;
+  }
+  #foodpic{
+    border-radius: 20px;
+    height: 90%;
+    margin-top: 70px;
+  }
+  #none{
+    display: none;
+  }
+  #mobile{
+    display: none;
+  }
+  #buttonmobile{
+    display: none;
+  }
+  #desktopbutton{
+      background-color: #c4c4c4;
+  }
+
+                /*END OF SECTION A*/
+
+                /*SECTION B*/
+
+  #flex{
+      display:flex;
+      justify-content: space-between;
+    }
+    #polaroid{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    #polaroid1{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+    }
+  
+
+                /*SECTION C*/
+
+  #underline{
+    text-decoration: underline;
+    text-decoration-color: #FFBC59;
+    text-decoration-thickness: 5px;
+  }
+  #che{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    color: black;
+    background-color: #E3E3E3;
+  }
+  #inline{
+    display: flex;
+  }
+  #inline div{
+    margin-right: 10px;
+  }
+                /*END OF SECTION C*/
+
+
+                /*SECTION D*/
+  #download{
+    background-color: #FFBC59;
+    border-radius: 30px;
+    padding: 0;
+  }
+                /*END OF SECTION D*/
+
+
+                /*SECTION E*/
+  #news{
+    background-color: #E3E3E3;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+  }
+  #button-addon2{
+    background-color: #FFBC59;
+    color: white;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+  }
+                /*END OF SECTION E*/
+
+
+                /*SECTION F*/
+  #accordion{
+    border: 1px solid black;
+    position: none;
+  }
+
+                
+
+  
+  @media screen and (max-width: 480px) {
+
+                /*SECTION A RESPONSIVENESS*/
+
+    #desktop{
+      display: none;
+    }
+    #desktopbutton{
+        display: none;
+      }
+    #delivered{
+      font-size: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+      justify-content: center;
+      margin-top: 90px;
+      padding-top: 0;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+    #foodpic{
+      font: 1em sans-serif;
+      margin-top: 0px;
+    }
+    #buttonmobile{
+      display: inline;
+      width: 40%;
+      padding: auto;
+      font-size: 12px;
+    }
+    #mobile{
+      display: block;
+      font-weight: 500;
+      font-size: 15px;
+    }
+
+    /*END OF SECTION A RESPONSIVENESS*/
+
+
+    /*SECTION B RESPONSIVENESS*/
+    #polaroid{
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 10%;
+      }
+      #polaroid1{
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+      }
+    /*END OF SECTION B RESPONSIVENESS*/
+
+
+    /*SECTION C RESPONSIVENESS*/
+    #inline{
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    /*END OF SECTION C RESPONSIVENESS*/
+
+    /*SECTION D RESPONSIVENESS*/
+  #downloadbutton{
+    display: inline;
+    width: 40%;
+    padding: auto;
+    font-size: 12px;
+  }
+  #download{
+    width: 100%;
+    border-radius: 10px;
+  }
+  #downloadone{
+    width: 100%;
+    margin-top: 0%;
+    padding-left: 0px;
+  }
+  #downloadtwo{
+    display: none;
+  }
+  #downloadthree{
+    display: none;
+  }
+  #downloadcenter{
+    text-align: center;
+  }
+    /*END OF SECTION D RESPONSIVENESS*/
+
+
+    /*SECTION E RESPONSIVENESS*/
+  #newsletter{
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+    /*END OF SECTION E RESPONSIVENESS*/
+
+}

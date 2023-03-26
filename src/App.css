@@ -1,0 +1,39 @@
+#color{
+  color: #FFBC59;
+}
+#icons{
+  color: #FFBC59;
+  font-size: 24px;
+}
+a p:hover{
+  text-decoration: underline;
+}
+img{
+  max-width: 100%;
+  max-height: 100vh;
+}
+#button{
+  border-color: black;
+  background-color: #f6f6f6;
+}
+#button:hover{
+  background-color: #6c6c6c;
+}
+a:active{
+  color: #FFBC59;
+}
+
+
+
+@media screen and (max-width: 480px) {
+  #mobilenone{
+    display: none;
+  }
+  #icons{
+    font-size: 16px;
+    width: 10%;
+  }
+  #button{
+    margin-bottom: 2%;
+  }
+}
